@@ -14,7 +14,7 @@ A React Native mobile application for tracking your workouts and maintaining you
 - 📹 Add exercise demonstration videos
 - ⏱️ Built-in rest timer between sets
 
-[Screenshot Placeholder: Dashboard]
+![alt text](https://github.com/breton123/workoutTracker/blob/main/IMG_0948.png?raw=true)
 
 ## Tech Stack
 
@@ -25,7 +25,7 @@ A React Native mobile application for tracking your workouts and maintaining you
 - TypeScript
 - Expo Router
 
-[Screenshot Placeholder: Workout Screen]
+![alt text](https://github.com/breton123/workoutTracker/blob/main/IMG_0949.png?raw=true)
 
 ## Installation
 
@@ -57,7 +57,7 @@ const firebaseConfig = {
 npx expo start
 ```
 
-[Screenshot Placeholder: Exercise List]
+![alt text](https://github.com/breton123/workoutTracker/blob/main/IMG_0950.png?raw=true)
 
 ## Features in Detail
 
@@ -96,7 +96,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-[Screenshot Placeholder: Settings Screen]
+![alt text](https://github.com/breton123/workoutTracker/blob/main/IMG_0951.png?raw=true)
 
 ---
 
