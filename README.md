@@ -13,8 +13,8 @@ A React Native mobile application for tracking your workouts and maintaining you
 - 🔥 Maintain and view your workout streak
 - 📹 Add exercise demonstration videos
 - ⏱️ Built-in rest timer between sets
-
-![alt text](https://github.com/breton123/workoutTracker/blob/main/IMG_0948.png?raw=true)
+<img src="https://github.com/breton123/workoutTracker/blob/main/IMG_0948.png?raw=true" alt="drawing" width="200"/>
+![alt text]()
 
 ## Tech Stack
 
