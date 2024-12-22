@@ -75,7 +75,7 @@ npx expo start
 - Progress tracking during workout
 - Easy navigation between exercises
 
-[Screenshot Placeholder: Rest Timer]
+<img src="https://github.com/breton123/workoutTracker/blob/main/IMG_0951.png?raw=true" alt="drawing" width="400"/>
 
 ## Upcoming Features
 
@@ -92,7 +92,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-<img src="https://github.com/breton123/workoutTracker/blob/main/IMG_0951.png?raw=true" alt="drawing" width="400"/>
 
 ---
 
