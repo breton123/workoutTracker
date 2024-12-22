@@ -1,50 +1,103 @@
-# Welcome to your Expo app 👋
+# Workout Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native mobile application for tracking your workouts and maintaining your fitness streak.
 
-## Get started
+[![Built with Expo](https://img.shields.io/badge/Built%20with-Expo-4630EB.svg?style=flat-square&logo=EXPO&labelColor=f3f3f3&logoColor=000)](https://expo.dev/)
+[![Uses Firebase](https://img.shields.io/badge/Uses-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- 🏋️‍♂️ Create and manage custom workout routines
+- 📅 Schedule workouts for specific days or in rotation
+- 🎯 Track sets, reps, and weights for each exercise
+- 🔥 Maintain and view your workout streak
+- 📹 Add exercise demonstration videos
+- ⏱️ Built-in rest timer between sets
 
-2. Start the app
+[Screenshot Placeholder: Dashboard]
 
-   ```bash
-    npx expo start
-   ```
+## Tech Stack
 
-In the output, you'll find options to open the app in a
+- React Native with Expo
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage (for videos)
+- TypeScript
+- Expo Router
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+[Screenshot Placeholder: Workout Screen]
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Installation
 
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repository:
 ```bash
-npm run reset-project
+git clone https://github.com/breton123/workoutTracker.git
+cd workoutTracker
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Learn more
+3. Create a Firebase project and add your config to `firebaseConfig.ts`:
+```typescript
+const firebaseConfig = {
+    apiKey: "your-api-key",
+    authDomain: "your-auth-domain",
+    projectId: "your-project-id",
+    storageBucket: "your-storage-bucket",
+    messagingSenderId: "your-messaging-sender-id",
+    appId: "your-app-id"
+};
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Start the development server:
+```bash
+npx expo start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+[Screenshot Placeholder: Exercise List]
 
-## Join the community
+## Features in Detail
 
-Join our community of developers creating universal apps.
+### Workout Management
+- Create custom workout routines
+- Add exercises with sets, reps, and weights
+- Schedule workouts for specific days
+- Optional video demonstrations for exercises
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Progress Tracking
+- Track completed workouts
+- View your current streak
+- Monitor exercise progression
+
+### Workout Interface
+- Clear exercise instructions
+- Rest timer between sets
+- Progress tracking during workout
+- Easy navigation between exercises
+
+[Screenshot Placeholder: Rest Timer]
+
+## Upcoming Features
+
+- 📊 Progress graphs and statistics
+- 💪 Exercise history tracking
+- 🏆 Achievement system
+- 🤝 Social features and sharing
+- 📱 Apple Watch / WearOS integration
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+[Screenshot Placeholder: Settings Screen]
+
+---
+
+Made with ❤️ by Louis Breton
